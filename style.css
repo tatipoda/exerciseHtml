@@ -1,0 +1,76 @@
+ /* -------- палитра -------- */
+:root{
+  --bg1:#ffd6e8;          /* фон 1 */
+  --bg2:#ffb4c8;          /* фон 2 */
+  --text:#000000;         /* основной текст */
+  --heading:#3b3b58;      /* заголовки */
+  --accent:#d6336c;       /* яркий акцент */
+  --border:#ffc1d6;       /* рамка страницы */
+  --table-border:#a78b9a; /* рамка таблицы */
+  --link:#0ea5a4;         /* ссылки */
+  --link-hover:#0f766e;   /* hover */
+  --link-visited:#175e11; /* visited */
+  --animeDrawing:rgb(233, 11, 11);
+}
+
+
+body{
+  margin:0;
+  color:var(--text);
+  border:10px solid var(--border);
+  background:linear-gradient(135deg,var(--bg1),var(--bg2));
+}
+
+
+.bebra{
+  border:5px solid var(--accent);
+  color:var(--heading);
+}
+
+
+.kishka{ color:var(--accent); font-family:"Franklin Gothic Medium", Arial, sans-serif;}
+.zalupa{ list-style: square; padding-left:24px; color:var(--heading); font-family:"Franklin Gothic Medium", Arial, sans-serif; }
+.leastFavG{ color:var(--heading); font-family:"Franklin Gothic Medium", Arial, sans-serif; }
+
+/* ссылки */
+a:link{ color:var(--link); text-decoration:none; }
+a:visited{ color:var(--link-visited); }
+a:hover{ color:var(--link-hover); text-decoration:underline; }
+a:active{ color:var(--accent); }
+
+
+.boba{ list-style: square; padding-left:24px; }
+.skyrimPhoto,.CoDimg,.terrariaPhoto{ width:250px; height:auto; border-radius:8px; }
+.gamesListPage1{list-style:square; padding-left:24px;}
+.leastFavList{list-style: square; padding-left:24px;}
+
+
+/* -------- таблица на page2 -------- */
+.table1Page2{
+  width:96%;
+  margin:12px auto 20px;
+  border-collapse:collapse;
+  background:rgba(143, 7, 7, 0.55);
+}
+.table1Page2 th,
+.table1Page2 td{
+  border:2px solid var(--table-border);
+  padding:12px 10px;
+  vertical-align:top;
+  text-align:left;
+}
+.table1Page2 th{
+  color:var(--text);
+  background:rgba(143, 7, 7, 0.341);
+  text-align:center;
+  font-weight:700;
+}
+
+
+/* сердечки на page3 */
+.hearts{ color:var(--accent); }
+.bigHeart{ color:#f8a9c4;}
+.white-kittensPhoto{ width:400px; height:auto; border-radius:8px; }
+
+
+.animeDrawing{color:var(--animeDrawing);}
